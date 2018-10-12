@@ -131,33 +131,7 @@ body {
 	
 }
 
-/*.window2 {
- 	background: #CD6D45;
-	height: 40px; width: 7px;
-	position: relative; 
-	left: 175px;
-	top:-45px;
-	
-	border-background: #CD6D45;
-}
-.window2:after {
-	content: "";
-	height: 7px; width: 40px;
-	background: #CD6D45;
-	position: absolute; 
-	left: -15px; 
-	top: 15px;*/
-	
-/*.border2 { 
-	background: #B0C4DE;
- 	width:60px;
-	height:60px;
- 	border-width:5px;
-	border-style: solid;
-	margin-top:-90px;
-	margin-left: 155px;
-  }
-*/
+
 .window3 {
  	background: #CD6D45;
 	height: 55px; width: 5px;
