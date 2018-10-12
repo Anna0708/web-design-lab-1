@@ -1,0 +1,173 @@
+body {
+	/*position: relative;*/
+    /*margin-top: 1%;*/
+    margin-left: 35%;
+    background: lightblue;
+
+}
+
+.moon {
+  	width: 6em;
+  	height: 6em;
+  	position: relative;
+  	top: -15em;
+  	margin-left: 375px;
+  	border-radius: 50%;
+  	box-shadow: 1em 1em 0 0 gold;
+} 
+.roof { 
+	width: 0;
+	height: 0;
+	border-left: 174px solid transparent;
+	border-right: 165px solid transparent;
+	border-bottom: 163px solid indigo;
+	margin-top: -14%;
+ }
+
+.chimney {
+	height: 90px;
+	width:30px;
+	background:indigo;
+	position: relative;
+    margin-top:8%;
+    margin-left: 30%;
+}
+
+ .square { 
+	width:300px;
+	height:315px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	background: wheat;
+	margin-left:19px;
+	margin-top:1px; 
+	position: relative;
+ }
+
+
+
+
+
+.door { 
+	width:81px;
+	height:125px;
+	border-width:2px;
+	border-style: double;
+	background: #CD5C5C;
+	position: relative;
+	margin-left: 175px;
+	top: 140px;
+	
+ }
+
+ .handle {
+ 	width: 13px;
+ 	height: 13px;
+	background: black;
+	border-radius: 50%;
+	position: relative;
+	top: 50%;
+	left: 56.5%;
+}
+
+
+ .stairs {
+ 	width: 105px;
+ 	height: 22px;
+ 	background: darkred;
+ 	border-width:2px;
+	border-style: double;
+	position: relative;
+    top: -24.5%;
+    margin-left: 54.5%;	
+ 	
+ }
+ .stairs2 {
+ 	width: 125px;
+ 	height: 25px;
+ 	background: darkred;
+ 	border-width:2px;
+	border-style: double;
+	position: relative;
+    top: -42.8%;
+    margin-left: 50.9%;	
+ }
+  .foundation  {
+ 	width: 300px;
+ 	height: 38px;
+ 	background: #C0C0C0;
+ 	border-width:2px;
+	position: relative;
+	top:82px;
+	margin-left:0px;
+ }
+
+ .border1 { 
+ 	background: #B0C4DE;
+ 	width:85px;
+	height:85px;
+ 	border-width:5px;
+	border-style: solid;
+	top:10px;
+	margin-left: 30px;
+	position: relative;
+  }
+
+ .window1 {
+ 	background: #CD6D45;
+	height: 85px; width: 5px;
+	position: relative; 
+	margin-left: 41px;
+	top:-1px;
+}
+.window1:after {
+	content: "";
+	height: 5px; width: 85px;
+	background: #CD6D45;
+	position: relative; 
+	left:130px; 
+	top: 150px;
+	
+}
+
+
+.window3 {
+ 	background: #CD6D45;
+	height: 55px; width: 5px;
+	position: relative; 
+	margin-left: 36px;
+	top:-0px;
+
+
+}
+.window3:after {
+	content: "";
+	height: 5px; 
+	background: #CD6D45;
+	position: relative; 
+	left: -15px; 
+	top: 15px;
+
+	
+	
+}
+.border3 { 
+	background: #B0C4DE;
+ 	width:74px;
+	height:65px;
+ 	border-width:5px;
+	border-style: solid;
+	position: relative;
+	top:-205px;
+	margin-left:110px;
+  }
+
+ .balcony {
+ 	width:104px;
+ 	height: 25px;
+ 	background: black;
+ 	margin-left:99.5px;
+ 	margin-top:-225px;
+ 	position: relative;
+ }

@@ -1,0 +1,172 @@
+body {
+	position: fixed;
+    top: -15%;
+    left: 25%;
+    margin: 165px 0 0 165px;
+    background: lightblue;
+
+}
+
+.moon {
+  	width: 6em;
+  	height: 6em;
+  	position: fixed;
+  	top: 6em;
+  	left: 875px;
+  	border-radius: 50%;
+  	box-shadow: 1em 1em 0 0 gold;
+} 
+.roof { 
+	width: 0;
+	height: 0;
+	border-left: 174px solid transparent;
+	border-right: 165px solid transparent;
+	border-bottom: 163px solid indigo;
+ }
+
+.chimney {
+	height: 90px;
+	width:30px;
+	background:indigo;
+	position: fixed;
+    top: 20.5%;
+    left: 57%;
+}
+
+ .square { 
+	width:300px;
+	height:315px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	background: wheat;
+	left: 515px;
+	position: fixed;
+ }
+
+
+
+
+
+.door { 
+	width:81px;
+	height:125px;
+	border-width:2px;
+	border-style: double;
+	background: #CD5C5C;
+	position: fixed;
+	left: 695px;
+	top: 365px;
+	
+ }
+
+ .handle {
+ 	width: 13px;
+ 	height: 13px;
+	background: black;
+	border-radius: 50%;
+	position: fixed;
+	top: 68%;
+	left: 56.5%;
+}
+
+
+ .stairs {
+ 	width: 105px;
+ 	height: 22px;
+ 	background: darkred;
+ 	border-width:2px;
+	border-style: double;
+	position: fixed;
+    top: 78.6%;
+    left: 51.5%;	
+ 	
+ }
+ .stairs2 {
+ 	width: 125px;
+ 	height: 29px;
+ 	background: darkred;
+ 	border-width:2px;
+	border-style: double;
+	position: fixed;
+    top: 82.5%;
+    left: 50.9%;	
+ }
+  .foundation  {
+ 	width: 300px;
+ 	height: 38px;
+ 	background: #C0C0C0;
+ 	border-width:2px;
+	position: fixed;
+	top:511px;
+	margin-left:0px;
+ }
+
+ .border1 { 
+ 	background: #B0C4DE;
+ 	width:85px;
+	height:85px;
+ 	border-width:5px;
+	border-style: solid;
+	top:365px;
+	left: 545px;
+	position: fixed;
+  }
+
+ .window1 {
+ 	background: #CD6D45;
+	height: 85px; width: 5px;
+	position: fixed; 
+	left: 589px;
+	top:370px;
+}
+.window1:after {
+	content: "";
+	height: 5px; width: 85px;
+	background: #CD6D45;
+	position: fixed; 
+	left: 550px; 
+	top: 410px;
+	
+}
+
+
+.window3 {
+ 	background: #CD6D45;
+	height: 55px; width: 5px;
+	position: fixed; 
+	left: 664px;
+	top:268px;
+
+
+}
+.window3:after {
+	content: "";
+	height: 5px; 
+	background: #CD6D45;
+	position: fixed; 
+	left: -15px; 
+	top: 15px;
+
+	
+	
+}
+.border3 { 
+	background: #B0C4DE;
+ 	width:74px;
+	height:65px;
+ 	border-width:5px;
+	border-style: solid;
+	position: fixed;
+	top:263px;
+	left: 625px;
+  }
+
+ .balcony {
+ 	width:104px;
+ 	height: 25px;
+ 	background: black;
+ 	left:615px;
+ 	top:315px;
+ 	position: fixed;
+ }
